@@ -68,7 +68,7 @@ const Plates = () => {
                 className="absolute w-full h-full bg-slate-500 text-stone-100 dark:text-slate-800 opacity-0 hover:opacity-100 bg-opacity-0 hover:bg-opacity-30 text-opacity-0 hover:text-opacity-100 text-xl font-bold flex justify-center items-center z-10"
                 onClick={() => {
                   copyToClipboard(
-                    `background: linear-gradient(${value.colors.join(", ")})`
+                    `background: linear-gradient(${value.colors.join(", ")});`
                   );
                   setCopied(true);
                 }}
