@@ -30,6 +30,7 @@ const Navbar = () => {
       <button
         className="m-4 p-1 flex flex-row rounded-full border-2 border-slate-800 dark:border-white fixed top-0 left-0 z-20 bg-stone-50 dark:bg-slate-900"
         onClick={() => changeMode()}
+        aria-label="Change Mode Button"
       >
         <Moon className="w-6 h-6 dark:opacity-0 rotate-0 dark:rotate-180 transition-all duration-300" />
         <Sun className="w-6 h-6 text-amber-50 opacity-0 dark:opacity-100 rotate-180 dark:rotate-0 transition-all duration-300" />
