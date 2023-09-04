@@ -17,13 +17,6 @@
   font-style: normal;
 }
 
-.gradients {
-  background: linear-gradient(#4776E6, #8E54E9);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 /**
  * WHAT IS THIS FILE?
  *

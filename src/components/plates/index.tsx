@@ -35,7 +35,7 @@ const Plates = () => {
 
   return (
     <>
-      <div className="w-full py-2 mb-6 flex justify-center items-center">
+      <div className="w-full py-2 mb-6 flex justify-center items-center relative">
         <input
           type="text"
           placeholder="Search for colors"
@@ -54,7 +54,7 @@ const Plates = () => {
         {filteredColors.map((value, index) => (
           <div
             key={index}
-            className="2xl:basis-[calc(100%/7-1rem)] xl:basis-[calc(100%/6-1rem)] lg:basis-[calc(100%/5-1rem)] md:basis-[calc(100%/4-1rem)] sm:basis-[calc(100%/3-1rem)] xs:basis-[calc(100%/2-1rem)] basis-[calc(100%/1-1rem)] p-2 mx-2 my-4 bg-stone-50 dark:bg-slate-800 rounded-lg shadow"
+            className="2xl:basis-[calc(100%/7-1rem)] xl:basis-[calc(100%/6-1rem)] lg:basis-[calc(100%/5-1rem)] md:basis-[calc(100%/4-1rem)] sm:basis-[calc(100%/3-1rem)] xs:basis-[calc(100%/2-1rem)] basis-[calc(100%/1-1rem)] p-2 mx-2 my-4 z-10 bg-stone-50 dark:bg-slate-800 rounded-lg shadow"
           >
             <h1 className="text-center dark:text-white mb-2">{value.name}</h1>
 
