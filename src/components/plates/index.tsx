@@ -62,7 +62,7 @@ const Plates = () => {
               style={{
                 background: `linear-gradient(${value.colors.join(", ")})`,
               }}
-              className="relative flex-1 w-full h-[144px] rounded"
+              className={`relative flex-1 w-full h-[144px] rounded bg-gradient-to-b`}
             >
               <button
                 className="absolute w-full h-full bg-slate-500 text-stone-100 dark:text-slate-800 opacity-0 hover:opacity-100 bg-opacity-0 hover:bg-opacity-30 text-opacity-0 hover:text-opacity-100 text-xl font-bold flex justify-center items-center z-10"

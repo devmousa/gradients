@@ -28,5 +28,18 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-pwa": "^0.16.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.01%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      ">0.01%",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
